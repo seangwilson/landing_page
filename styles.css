@@ -1,0 +1,33 @@
+/* STYLESHEET */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    display: flex;
+    margin: 0;
+    padding: 8px 16px;
+  }
+  
+.right-links, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    color: black;
+}
