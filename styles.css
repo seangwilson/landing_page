@@ -4,17 +4,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .header {
-    background-color: blanchedalmond;
+    background-color: #FDFDE2;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
     font-family: "Sofia", sans-serif;
+    color: black;
     font-size: 30px;
     text-shadow: 3px 3px 3px #ababab;
     display: flex;
@@ -36,18 +37,53 @@ body {
 
 }
 
+img {
+    max-width: 300px;
+    margin: 0px;
+}
+
 .top {
-    background-color: aqua;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding: 8px 16px;
+
+}
+
+.left-side {
+    max-width: 600px;
+}
+
+.book {
+    
 }
 
 .mid {
-    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 8px 16px;
 }
 
 .bottom {
-    background-color: blue;
+    background-image: url("./img/breathe.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    color: white;
+    font-size: 32px;
 }
 
-img {
-    width: 300px;
-}
+
