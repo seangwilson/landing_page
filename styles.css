@@ -31,3 +31,23 @@ body {
     margin-right: 16px;
     color: black;
 }
+
+.content {
+
+}
+
+.top {
+    background-color: aqua;
+}
+
+.mid {
+    background-color: aquamarine;
+}
+
+.bottom {
+    background-color: blue;
+}
+
+img {
+    width: 300px;
+}
