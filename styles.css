@@ -2,12 +2,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
     display: flex;
     flex-direction: column;  
 }
 
 .header {
+    margin: 0px;
     background-color: #FDFDE2;
     display: flex;
     justify-content: space-between;
@@ -40,6 +40,8 @@ body {
 img {
     max-width: 300px;
     margin: 0px;
+    border-radius: 30px;
+    ;
 }
 
 .top {
@@ -74,7 +76,7 @@ img {
 }
 
 .bottom {
-    background-image: url("./img/breathe.webp");
+    background-image: url("./img/stones.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -85,5 +87,19 @@ img {
     color: white;
     font-size: 32px;
 }
+
+.cta {
+
+}
+
+.cta {
+    background: #FDFDE2;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  }
 
 
