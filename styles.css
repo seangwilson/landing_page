@@ -137,3 +137,46 @@ h4 {
     color: #1f2937;
     margin-left: 300px;
 }
+
+.cta {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 30px;
+    width: 600px;
+    padding: 16px 32px;
+    box-shadow: 2px 2px 50 black;
+}
+
+.text {
+    font-family: "Shadows Into Light";
+    color: #f9faf8;
+    font-size: 24px;
+    text-shadow: 2px 2px 50 black;
+}
+
+.sub-text {
+    font-family: "Shadows Into Light Two";
+    color: #e5e7eb;
+    font-size: 18px;
+    text-shadow: 2px 2px 50 black;
+}
+
+.btn-cta {
+    border: solid #f9faf8
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 24px;
+    text-align: center;
+}
