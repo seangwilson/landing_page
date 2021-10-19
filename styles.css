@@ -1,140 +1,139 @@
 /* STYLESHEET */
 
-
 * {
-    margin:0px;
+    margin: 0px;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;  
-    background-color:#fffff2;
+a{
+    color: white;
+    text-decoration: none;
+   }
+
+   img {
+       max-width: 300px;
+       border-radius: 30px;
+       border: solid 4px#3882f6;
+   }
+.body {
+
 }
 
 .header {
-    margin: 0px;
-    background-color: #FDFDE2;
+    background-color: #1f2937;
+    color: white;
     display: flex;
     justify-content: space-between;
-    box-shadow: 1px 0px 100px;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
+    padding: 16px;
+}
+.right-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Shadows Into Light Two";
 }
 
 .logo {
-    font-family: "Ephesis", sans-serif;
-    color: black;
-    font-size: 30px;
-    text-shadow: 3px 3px 3px #ababab;
-    display: flex;
-    margin: 0;
-    padding: 8px 16px;
-  }
-  
-.right-links, a{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    margin-right: 16px;
-    color: black;
+    font-family: "Ephesis";
+    color: #f9faf8;
+    font-size: 32px;
 }
 
 .content {
-    padding: 32px;
-
-}
-
-img {
-    max-width: 300px;
-    margin: 0px;
-    border-radius: 30px;
-    ;
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
+    background-color: #1f2937;
     display: flex;
-    flex: 1 1 auto;
-    justify-content: space-between;
-    padding: 32px 16px;
+    justify-content: space-around;
     flex-wrap: wrap;
-
+    padding: 32px;
 }
 
-.left-side p{
-    max-width: 600px;
-    padding: 16px;
+.left-side {
+    color: #e5e7eb;
+    font-size: 18px;
     font-family: "Shadows Into Light Two";
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 16px;
+    max-width: 600px;
+    
 }
 h1 {
-    font-family: Shadows Into Light Two;
+    color: #f9faf8;
+    font-size: 48px;
+    font-family: "Shadows Into Light";
 }
 
 .img-top {
     max-width: 600px;
+    border: none;
 }
 
-.book {
+.btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 25%;
     
 }
 
-.top-book {
-    padding: 16px 32px;
-    font-size: ;
-}
-.mid {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
-    justify-content: space-between;
+.btn:hover {
+    background-color: #0d5ee0;
 }
 
-.info {
+.mid {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
-    align-items: center;
-    padding: 8px 16px;
+    padding: 32px;
+}
+
+h2 {
+    font-family: "Shadows Into Light";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    font-family: "SHadows Into Light Two";
 }
 
 .bottom {
-    background-image: url("./img/stones.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
+    padding: 32px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-family: "Shadows Into Light";
+    font-size: 36px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
     align-items: center;
-    color: white;
-    font-family: "Shadows Into Light";
-    text-shadow: 3px 3px 3px #050505;
-    
 }
 
 .quote {
-    max-width: 400px;
-    font-size: 32px;
+    max-width: 600px;
 }
 
-.cta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h4 {
+    color: #1f2937;
+    margin-left: 300px;
 }
-.cta-container {
-    background: #FDFDE2;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    width: 480px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  }
-
-
